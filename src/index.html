@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheet</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">Test</h2>
+        </div>
+
+
+        <form class="row" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdN0M30GB6NSQxfeAhWK0B4PSpuIPGVLnoWo4TrksqtkeKtRA/formResponse" method="POST" >
+            <div class="col-md-6 col-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">姓名:</label>
+                    <input type="text" class="form-control" name="entry.104959259">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">電話</label>
+                    <input type="number" class="form-control" name="entry.403616441">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">日期</label>
+                    <input type="date" class="form-control" name="entry.650799372_year entry.650799372_month entry.650799372_day">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">用餐人數</label>
+                    <select class="form-select" name="entry.1491692660" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">其他項目</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" name="entry.901461210">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            需要兒童座椅
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="素食餐點" name="entry.901461210">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            素食餐點
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" name="entry.901461210">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            吸煙區
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" name="button" value="送出" class="btn-dark w-100">送出</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
